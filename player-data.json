@@ -1,0 +1,109 @@
+{
+  "player": {
+    "name": "Adventurer",
+    "github_username": "markjspivey-xwisee",
+    "class": "Warrior",
+    "level": 1,
+    "experience": 0,
+    "next_level_at": 100,
+    "creation_date": "2025-03-20T17:11:00.919Z",
+    "last_transaction": null,
+    "currency": 50,
+    "stats": {
+      "strength": 10,
+      "dexterity": 6,
+      "intelligence": 6,
+      "constitution": 8,
+      "charisma": 6,
+      "health": 100,
+      "max_health": 100,
+      "energy": 50,
+      "max_energy": 50,
+      "attack_power": 7,
+      "defense": 7
+    },
+    "location": {
+      "region": "starting-village",
+      "coordinates": [
+        0,
+        0
+      ],
+      "last_moved": "2025-03-20T17:11:00.919Z"
+    },
+    "inventory": [
+      {
+        "id": "rusty-sword",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "id": "small-potion",
+        "quantity": 3,
+        "equipped": false
+      },
+      {
+        "id": "leather-armor",
+        "quantity": 1,
+        "equipped": true
+      }
+    ],
+    "equipment": {
+      "weapon": "rusty-sword",
+      "armor": "leather-armor",
+      "head": null,
+      "accessory": null
+    },
+    "quests": {
+      "completed": [],
+      "active": [
+        {
+          "id": "welcome-to-gitrealm",
+          "name": "Welcome to GitRealm",
+          "accepted_at": "2025-03-20T17:11:00.919Z",
+          "objectives": [
+            {
+              "type": "talk",
+              "target": "village-elder",
+              "count": 0,
+              "required": 1,
+              "completed": false
+            },
+            {
+              "type": "explore",
+              "target": "starting-village",
+              "count": 0,
+              "required": 1,
+              "completed": false
+            }
+          ]
+        }
+      ]
+    },
+    "skills": {
+      "mining": 1,
+      "crafting": 1,
+      "combat": 1,
+      "exploration": 1,
+      "trading": 1
+    },
+    "achievements": [],
+    "reputation": {
+      "villagers": 0,
+      "merchants": 0,
+      "mages": 0,
+      "warriors": 0
+    }
+  },
+  "blockchain": {
+    "chain_id": "gitrealm-mainnet",
+    "block_height": 0,
+    "last_hash": null,
+    "repository_created": "2025-03-20T17:11:00.919Z",
+    "validator_signatures": []
+  },
+  "meta": {
+    "client_version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2025-03-20T17:11:00.919Z"
+  }
+}
