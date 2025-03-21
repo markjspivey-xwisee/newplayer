@@ -1,0 +1,16 @@
+{
+  "id": "explore-1742524800274",
+  "type": "explore",
+  "player": "markjspivey-xwisee",
+  "timestamp": "2025-03-21T02:40:00.274Z",
+  "data": {
+    "energy": 10,
+    "location": {
+      "region": "starting-village",
+      "coordinates": [
+        0,
+        0
+      ]
+    }
+  }
+}
